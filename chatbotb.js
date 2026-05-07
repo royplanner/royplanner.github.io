@@ -3,7 +3,7 @@ class ChatBot {
     constructor() {
         // ⚠️ Important: Replace with your n8n webhook URL
         // ****************************************************************
-        this.webhookUrl = 'https://royplanner.app.n8n.cloud/webhook/chatb-v2';
+        this.webhookUrl = 'https://royplanner.app.n8n.cloud/webhook/chatb1';
         // ****************************************************************        
         // Initialize session ID
         this.sessionId = this.getOrCreateSessionId();
