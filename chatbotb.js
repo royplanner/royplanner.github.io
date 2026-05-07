@@ -1057,7 +1057,7 @@ class ChatBot {
         if (recentHistory.length === 0) {
             // If no history, show welcome message
             setTimeout(() => {
-                this.addMessage('你好！我是ROY聊天助手。有任何問題嗎？', 'ai');
+                this.addMessage('你好！我是ROY聊天BOT。有任何問題嗎？', 'ai');
             }, 1000);
         }
     }
